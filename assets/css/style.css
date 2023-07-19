@@ -1,0 +1,65 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for header */
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+}
+
+nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+/* Styling for all h2 headers */
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color:darkslategray;
+}
+
+/* Styling for about me section */
+#about {
+    margin-bottom: 5rem;
+}
+
+#about-me img {
+    display: block;
+    float: left;
+    margin-left: 10%;
+}
+
+#about-me .description {
+    display: inline-block;
+    width: 46%;
+    margin-left: 15%;
+}
+
+/* Styling for work section */
+#catfish-img {
+    width: 50%;
+    border: 3px solid black;
+    padding: 2rem;
+}
+
+#catfish-img:hover {
+    background: antiquewhite;
+}
+
+h4 {
+    font-style: italic;
+}
