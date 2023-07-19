@@ -34,7 +34,7 @@ h2 {
 
 /* Styling for about me section */
 #about {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 #about-me img {
@@ -52,6 +52,10 @@ h2 {
 /* Styling for work section */
 h4 {
     font-style: italic;
+}
+
+#work {
+    background-color: beige;
 }
 
 .projects {
@@ -212,4 +216,17 @@ h4 {
     padding: 8px 15px;
     visibility: visible;
     opacity: 0.85; 
+}
+
+/* styling for contact section */
+#contact {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
